@@ -7,6 +7,7 @@ import javax.swing.JFrame;
 public class SolanaFrame extends JFrame {
 
     public static String solPrice;
+    public static String version = "Version 1.0.0";
 
     public static void main(String[] args) throws IOException {
         try {

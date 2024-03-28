@@ -120,7 +120,7 @@ public class SolanaPanel extends JPanel{
         hyperlink.setFont(new Font("Century", Font.BOLD, 12));
         // Invoke method to create labels for bottom part of the panel
         signature = bottomText(5, 440, 80, 15, "Developed by ");
-        version = bottomText(310, 440, 80, 15, "Version 1.0.0");
+        version = bottomText(310, 440, 80, 15, SolanaFrame.version);
         copyright = bottomText(540, 440, 150, 15, "Copyright © 2024 TheTT");
         // Add JLabels
         this.add(solanaImage1);

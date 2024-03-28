@@ -75,7 +75,7 @@ public class ErrorPanel extends JPanel {
         hyperlink2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         hyperlink2.setFont(new Font("Century", Font.BOLD, 12));
         // Invoke method to create JLabel for version and set font size
-        version = createLabel("Version 1.0.0", 310, 440, 80, 15);
+        version = createLabel(SolanaFrame.version, 310, 440, 80, 15);
         version.setFont(new Font("Century", Font.BOLD, 12));
         // Set size and location of the GIF label
         errorGIF.setBounds(400, 20, 300, 500);
